@@ -1,4 +1,4 @@
-package com.nopainanymore.designpattern.proxy.jdk;
+package com.nopainanymore.designpattern.constructure.proxy.jdk;
 
 import lombok.extern.slf4j.Slf4j;
 

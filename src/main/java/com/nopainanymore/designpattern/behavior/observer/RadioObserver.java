@@ -1,4 +1,4 @@
-package com.nopainanymore.designpattern.observer;
+package com.nopainanymore.designpattern.behavior.observer;
 
 import lombok.extern.slf4j.Slf4j;
 

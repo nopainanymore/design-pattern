@@ -1,4 +1,4 @@
-package com.nopainanymore.designpattern.observer;
+package com.nopainanymore.designpattern.behavior.observer;
 
 /**
  * design-pattern: Subject

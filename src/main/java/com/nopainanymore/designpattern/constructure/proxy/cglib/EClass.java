@@ -1,4 +1,4 @@
-package com.nopainanymore.designpattern.proxy.cglib;
+package com.nopainanymore.designpattern.constructure.proxy.cglib;
 
 import lombok.extern.slf4j.Slf4j;
 

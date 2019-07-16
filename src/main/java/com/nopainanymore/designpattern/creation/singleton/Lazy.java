@@ -1,4 +1,4 @@
-package com.nopainanymore.designpattern.singleton;
+package com.nopainanymore.designpattern.creation.singleton;
 
 /**
  * design-pattern: Lazy

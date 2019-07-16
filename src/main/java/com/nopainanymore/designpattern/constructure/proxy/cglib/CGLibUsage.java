@@ -1,4 +1,4 @@
-package com.nopainanymore.designpattern.proxy.cglib;
+package com.nopainanymore.designpattern.constructure.proxy.cglib;
 
 /**
  * design-pattern: CGLibUsage

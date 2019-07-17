@@ -6,13 +6,25 @@ package com.nopainanymore.designpattern.behavior.chainofresponsibility.nonpure;
  * @author NoPainAnymore
  * @date 2019-07-17 23:13
  */
-public class FilterChain implements Filter {
+public class FilterChain extends AbstractFilter {
 
+    private AbstractFilter fistFilter = new AbstractFilter() {
+        @Override
+        public void doFilter(Request request, Response response) {
+            super.fireFilter(request, response);
+        }
+    };
+
+    private AbstractFilter end = fistFilter;
 
     @Override
-    public void doFilter(Request request, Response response, FilterChain filterChain) {
-        
+    public void doFilter(Request request, Response response) {
+        fistFilter.transformEntry(request, response);
     }
 
+    public void addLast(AbstractFilter filter) {
+        end.setNextFilter(filter);
+        end = filter;
+    }
 
 }

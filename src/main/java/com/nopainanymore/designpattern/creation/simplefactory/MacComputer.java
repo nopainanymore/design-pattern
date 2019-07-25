@@ -8,20 +8,20 @@ import lombok.experimental.SuperBuilder;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * design-pattern: AsusComputer
+ * design-pattern: MacComputer
  *
  * @author NoPainAnymore
- * @date 2019-07-24 23:23
+ * @date 2019-07-24 23:22
  */
 @Data
 @SuperBuilder
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper = true)
 @Slf4j
-public class AsusComputer extends Computer {
+public class MacComputer extends Computer {
 
     @Override
     void usedFor() {
-        log.info("AsusComputer- usedFor- Game");
+        log.info("MacComputer- usedFor- Work");
     }
 }

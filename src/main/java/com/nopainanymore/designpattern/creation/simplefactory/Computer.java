@@ -1,9 +1,9 @@
 package com.nopainanymore.designpattern.creation.simplefactory;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.experimental.SuperBuilder;
 
 /**
  * design-pattern: Computer
@@ -12,10 +12,10 @@ import lombok.NoArgsConstructor;
  * @date 2019-07-24 23:18
  */
 @Data
-@Builder
+@SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Computer {
+public abstract class Computer {
 
     private String cpu;
 
@@ -26,4 +26,6 @@ public class Computer {
     private Integer ssd;
 
     private Integer hhd;
+
+    abstract void usedFor();
 }

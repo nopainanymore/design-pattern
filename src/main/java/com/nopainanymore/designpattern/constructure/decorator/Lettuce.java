@@ -19,8 +19,13 @@ public class Lettuce extends PancakeRawMaterial {
 
     @Override
     public BigDecimal costMoney() {
-       log.info("ADD Lettuce- costMoney- $1");
+        moreHealth();
+        log.info("ADD Lettuce- costMoney- $1");
         return rawMaterial.costMoney().add(BigDecimal.valueOf(1));
+    }
+
+    public void moreHealth() {
+        log.info("Lettuce- moreHealth");
     }
 
 }

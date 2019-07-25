@@ -19,8 +19,12 @@ public class Ham extends PancakeRawMaterial {
 
     @Override
     public BigDecimal costMoney() {
+        moreProtein();
         log.info("ADD Ham- costMoney- $3");
         return rawMaterial.costMoney().add(BigDecimal.valueOf(3));
     }
 
+    public void moreProtein() {
+        log.info("Ham- moreProtein");
+    }
 }

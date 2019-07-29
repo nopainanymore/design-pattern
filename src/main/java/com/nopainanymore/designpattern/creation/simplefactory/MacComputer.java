@@ -20,7 +20,7 @@ import lombok.extern.slf4j.Slf4j;
 public class MacComputer extends Computer {
 
     @Override
-    void usedFor() {
+    public void usedFor() {
         log.info("MacComputer- usedFor- Work");
     }
 }

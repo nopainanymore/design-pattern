@@ -27,5 +27,5 @@ public abstract class Computer {
 
     private Integer hhd;
 
-    abstract void usedFor();
+    public abstract void usedFor();
 }

@@ -15,7 +15,7 @@ public class InnerClass {
         private static final InnerClass INSTANCE = new InnerClass();
     }
 
-    public InnerClass getInstance() {
+    public static InnerClass getInstance() {
         return InstanceHolder.INSTANCE;
     }
 

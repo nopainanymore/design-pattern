@@ -14,7 +14,7 @@ public class Lazy {
     private Lazy(){
     }
 
-    public Lazy getInstance(){
+    public static Lazy getInstance(){
         if (lazy == null) {
             lazy = new Lazy();
         }

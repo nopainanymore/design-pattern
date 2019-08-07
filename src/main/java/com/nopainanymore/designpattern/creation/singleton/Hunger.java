@@ -14,7 +14,7 @@ public class Hunger {
     private Hunger(){
     }
 
-    public Hunger getInstance(){
+    public static Hunger getInstance(){
         return hunger;
     }
 

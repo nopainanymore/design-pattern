@@ -14,7 +14,7 @@ public class DoubleCheckLocking {
     private DoubleCheckLocking() {
     }
 
-    public DoubleCheckLocking getInstance() {
+    public static DoubleCheckLocking getInstance() {
         if (doubleCheckLocking == null) {
             synchronized (DoubleCheckLocking.class) {
                 if (doubleCheckLocking == null) {

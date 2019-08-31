@@ -8,7 +8,6 @@ package com.nopainanymore.designpattern.creation.simplefactory;
  */
 public class Client {
 
-
     public static void main(String[] args) {
         ComputerFactory computerFactory = new ComputerFactory();
         Computer computer = computerFactory.createComputer(ComputerFactory.COMPUTER_TYPE.MAC);

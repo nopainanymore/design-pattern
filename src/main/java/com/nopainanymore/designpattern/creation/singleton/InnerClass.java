@@ -19,5 +19,4 @@ public class InnerClass {
         return InstanceHolder.INSTANCE;
     }
 
-
 }

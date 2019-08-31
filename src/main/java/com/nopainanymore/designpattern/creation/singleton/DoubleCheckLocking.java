@@ -25,5 +25,4 @@ public class DoubleCheckLocking {
         return doubleCheckLocking;
     }
 
-
 }

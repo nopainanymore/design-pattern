@@ -12,5 +12,4 @@ public abstract class AbstractComputerFactory {
 
     abstract Computer createComputer();
 
-
 }

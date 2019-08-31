@@ -10,7 +10,6 @@ import com.nopainanymore.designpattern.creation.simplefactory.Computer;
  */
 public class Client {
 
-
     public static void main(String[] args) {
         AbstractComputerFactory computerFactory = new AsusComputerFactory();
         Computer computer = computerFactory.createComputer();

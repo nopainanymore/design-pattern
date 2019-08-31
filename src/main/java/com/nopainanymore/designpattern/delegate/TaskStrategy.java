@@ -8,8 +8,8 @@ import java.util.Map;
 /**
  * design-pattern: TaskStrategy
  *
- * @author NoPainAnymore
- * @date 2019-07-13 22:47
+ * @author nopainanymore
+ * @version 2019-07-13 22:47
  */
 public class TaskStrategy implements ITask {
 

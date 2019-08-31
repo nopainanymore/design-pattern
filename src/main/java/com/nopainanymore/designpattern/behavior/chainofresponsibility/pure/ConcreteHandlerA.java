@@ -5,8 +5,8 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * design-pattern: ConcreteHandlerA
  *
- * @author NoPainAnymore
- * @date 2019-07-17 22:56
+ * @author nopainanymore
+ * @version 2019-07-17 22:56
  */
 @Slf4j
 public class ConcreteHandlerA extends AbstractHandler {

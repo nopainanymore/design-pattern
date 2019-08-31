@@ -3,8 +3,8 @@ package com.nopainanymore.designpattern.constructure.proxy.cglib;
 /**
  * design-pattern: CGLibUsage
  *
- * @author NoPainAnymore
- * @date 2019-05-04 17:53
+ * @author nopainanymore
+ * @version 2019-05-04 17:53
  */
 public class CGLibUsage {
 

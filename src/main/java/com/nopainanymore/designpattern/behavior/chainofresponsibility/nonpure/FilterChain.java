@@ -3,8 +3,8 @@ package com.nopainanymore.designpattern.behavior.chainofresponsibility.nonpure;
 /**
  * design-pattern: FilterChain
  *
- * @author NoPainAnymore
- * @date 2019-07-17 23:13
+ * @author nopainanymore
+ * @version 2019-07-17 23:13
  */
 public class FilterChain extends AbstractFilter {
 

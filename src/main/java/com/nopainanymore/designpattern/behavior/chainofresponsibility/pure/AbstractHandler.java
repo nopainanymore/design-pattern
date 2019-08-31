@@ -3,8 +3,8 @@ package com.nopainanymore.designpattern.behavior.chainofresponsibility.pure;
 /**
  * design-pattern: AbstractHandler
  *
- * @author NoPainAnymore
- * @date 2019-07-17 22:54
+ * @author nopainanymore
+ * @version 2019-07-17 22:54
  */
 public abstract class AbstractHandler {
 

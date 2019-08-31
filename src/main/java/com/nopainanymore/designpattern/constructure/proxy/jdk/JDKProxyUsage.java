@@ -3,8 +3,8 @@ package com.nopainanymore.designpattern.constructure.proxy.jdk;
 /**
  * design-pattern: JDKProxyUsage
  *
- * @author NoPainAnymore
- * @date 2019-05-04 16:48
+ * @author nopainanymore
+ * @version 2019-05-04 16:48
  */
 public class JDKProxyUsage {
 

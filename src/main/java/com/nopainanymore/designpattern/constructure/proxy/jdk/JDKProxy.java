@@ -9,8 +9,8 @@ import java.lang.reflect.Proxy;
 /**
  * design-pattern: JDKProxy
  *
- * @author NoPainAnymore
- * @date 2019-05-04 16:15
+ * @author nopainanymore
+ * @version 2019-05-04 16:15
  */
 @Slf4j
 public class JDKProxy implements InvocationHandler {

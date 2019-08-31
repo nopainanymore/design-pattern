@@ -8,8 +8,8 @@ import java.math.BigDecimal;
 /**
  * design-pattern: AliPay
  *
- * @author NoPainAnymore
- * @date 2019-07-18 22:13
+ * @author nopainanymore
+ * @version 2019-07-18 22:13
  */
 @Slf4j
 @Data

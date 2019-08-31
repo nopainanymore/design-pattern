@@ -3,8 +3,8 @@ package com.nopainanymore.designpattern.behavior.strategy;
 /**
  * design-pattern: PayStrategyEnum
  *
- * @author NoPainAnymore
- * @date 2019-07-18 22:19
+ * @author nopainanymore
+ * @version 2019-07-18 22:19
  */
 public enum PayStrategyEnum {
 

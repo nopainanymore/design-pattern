@@ -5,8 +5,8 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * design-pattern: PayStrategyCollection
  *
- * @author NoPainAnymore
- * @date 2019-07-18 22:22
+ * @author nopainanymore
+ * @version 2019-07-18 22:22
  */
 public class PayStrategyCollection {
 

@@ -8,8 +8,8 @@ import java.math.BigDecimal;
 /**
  * design-pattern: PayPalPay
  *
- * @author NoPainAnymore
- * @date 2019-07-18 22:17
+ * @author nopainanymore
+ * @version 2019-07-18 22:17
  */
 @Slf4j
 @Data

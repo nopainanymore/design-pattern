@@ -5,8 +5,8 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * design-pattern: TVObserver
  *
- * @author NoPainAnymore
- * @date 2019-07-11 22:52
+ * @author nopainanymore
+ * @version 2019-07-11 22:52
  */
 @Slf4j
 public class TVObserver implements Observer {

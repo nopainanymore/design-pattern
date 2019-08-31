@@ -5,8 +5,8 @@ import java.math.BigDecimal;
 /**
  * design-pattern: PayStrategy
  *
- * @author NoPainAnymore
- * @date 2019-07-18 22:09
+ * @author nopainanymore
+ * @version 2019-07-18 22:09
  */
 public interface PayStrategy {
 

@@ -5,8 +5,8 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * design-pattern: EClass
  *
- * @author NoPainAnymore
- * @date 2019-05-04 16:13
+ * @author nopainanymore
+ * @version 2019-05-04 16:13
  */
 @Slf4j
 public class EClass implements ExInterface {

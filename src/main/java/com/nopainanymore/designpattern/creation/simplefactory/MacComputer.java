@@ -9,8 +9,8 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * design-pattern: MacComputer
  *
- * @author NoPainAnymore
- * @date 2019-07-24 23:22
+ * @author nopainanymore
+ * @version 2019-07-24 23:22
  */
 @Data
 @SuperBuilder

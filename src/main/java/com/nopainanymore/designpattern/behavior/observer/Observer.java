@@ -3,8 +3,8 @@ package com.nopainanymore.designpattern.behavior.observer;
 /**
  * design-pattern: Observer
  *
- * @author NoPainAnymore
- * @date 2019-07-11 22:41
+ * @author nopainanymore
+ * @version 2019-07-11 22:41
  */
 public interface Observer {
 

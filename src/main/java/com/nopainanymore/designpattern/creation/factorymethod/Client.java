@@ -5,8 +5,8 @@ import com.nopainanymore.designpattern.creation.simplefactory.Computer;
 /**
  * design-pattern: Client
  *
- * @author NoPainAnymore
- * @date 2019-07-29 12:27
+ * @author nopainanymore
+ * @version 2019-07-29 12:27
  */
 public class Client {
 

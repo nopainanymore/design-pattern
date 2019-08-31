@@ -3,8 +3,8 @@ package com.nopainanymore.designpattern.creation.singleton;
 /**
  * design-pattern: InnerClass
  *
- * @author NoPainAnymore
- * @date 2019-07-16 22:49
+ * @author nopainanymore
+ * @version 2019-07-16 22:49
  */
 public class InnerClass {
 

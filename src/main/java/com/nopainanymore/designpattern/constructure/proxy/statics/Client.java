@@ -3,8 +3,8 @@ package com.nopainanymore.designpattern.constructure.proxy.statics;
 /**
  * design-pattern: Client
  *
- * @author NoPainAnymore
- * @date 2019-07-20 23:19
+ * @author nopainanymore
+ * @version 2019-07-20 23:19
  */
 public class Client {
 

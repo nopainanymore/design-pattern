@@ -3,8 +3,8 @@ package com.nopainanymore.designpattern.behavior.chainofresponsibility.nonpure;
 /**
  * design-pattern: Client
  *
- * @author NoPainAnymore
- * @date 2019-07-17 23:58
+ * @author nopainanymore
+ * @version 2019-07-17 23:58
  */
 public class Client {
 

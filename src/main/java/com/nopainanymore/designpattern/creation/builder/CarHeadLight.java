@@ -8,8 +8,8 @@ import lombok.NoArgsConstructor;
 /**
  * design-pattern: CarHeadLight
  *
- * @author NoPainAnymore
- * @date 2019-07-23 20:55
+ * @author nopainanymore
+ * @version 2019-07-23 20:55
  */
 @Data
 @Builder

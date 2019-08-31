@@ -7,8 +7,8 @@ import java.math.BigDecimal;
 /**
  * design-pattern: Ham
  *
- * @author NoPainAnymore
- * @date 2019-07-22 22:08
+ * @author nopainanymore
+ * @version 2019-07-22 22:08
  */
 @Slf4j
 public class Ham extends PancakeRawMaterial {

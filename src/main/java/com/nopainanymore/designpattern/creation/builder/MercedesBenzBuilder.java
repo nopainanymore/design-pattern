@@ -3,8 +3,8 @@ package com.nopainanymore.designpattern.creation.builder;
 /**
  * design-pattern: MercedesBenzBuilder
  *
- * @author NoPainAnymore
- * @date 2019-07-23 21:07
+ * @author nopainanymore
+ * @version 2019-07-23 21:07
  */
 public class MercedesBenzBuilder implements CarBuilder {
 

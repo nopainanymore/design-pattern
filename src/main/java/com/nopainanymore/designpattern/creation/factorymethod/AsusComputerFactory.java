@@ -6,8 +6,8 @@ import com.nopainanymore.designpattern.creation.simplefactory.Computer;
 /**
  * design-pattern: AsusComputerFactory
  *
- * @author NoPainAnymore
- * @date 2019-07-29 12:25
+ * @author nopainanymore
+ * @version 2019-07-29 12:25
  */
 public class AsusComputerFactory extends AbstractComputerFactory {
 

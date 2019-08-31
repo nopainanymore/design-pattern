@@ -6,8 +6,8 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * design-pattern: AuthFilter
  *
- * @author NoPainAnymore
- * @date 2019-07-17 23:18
+ * @author nopainanymore
+ * @version 2019-07-17 23:18
  */
 @Slf4j
 public class AuthFilter extends AbstractFilter {

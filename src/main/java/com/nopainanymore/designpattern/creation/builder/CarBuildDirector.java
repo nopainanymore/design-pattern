@@ -3,8 +3,8 @@ package com.nopainanymore.designpattern.creation.builder;
 /**
  * design-pattern: CarBuildDirector
  *
- * @author NoPainAnymore
- * @date 2019-07-23 21:04
+ * @author nopainanymore
+ * @version 2019-07-23 21:04
  */
 public class CarBuildDirector {
 

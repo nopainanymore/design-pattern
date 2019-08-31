@@ -9,8 +9,8 @@ import java.util.List;
 /**
  * design-pattern: WeatherData
  *
- * @author NoPainAnymore
- * @date 2019-07-11 22:45
+ * @author nopainanymore
+ * @version 2019-07-11 22:45
  */
 @NoArgsConstructor
 public class WeatherData implements Subject {

@@ -3,8 +3,8 @@ package com.nopainanymore.designpattern.creation.singleton;
 /**
  * design-pattern: DoubleCheckLocking
  *
- * @author NoPainAnymore
- * @date 2019-07-16 22:41
+ * @author nopainanymore
+ * @version 2019-07-16 22:41
  * thread safe
  */
 public class DoubleCheckLocking {

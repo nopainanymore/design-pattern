@@ -5,8 +5,8 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * design-pattern: RadioObserver
  *
- * @author NoPainAnymore
- * @date 2019-07-11 22:51
+ * @author nopainanymore
+ * @version 2019-07-11 22:51
  */
 @Slf4j
 public class RadioObserver implements Observer {

@@ -6,8 +6,8 @@ import com.nopainanymore.designpattern.creation.simplefactory.MacComputer;
 /**
  * design-pattern: MacFactory
  *
- * @author NoPainAnymore
- * @date 2019-07-29 12:27
+ * @author nopainanymore
+ * @version 2019-07-29 12:27
  */
 public class MacFactory extends AbstractComputerFactory {
 

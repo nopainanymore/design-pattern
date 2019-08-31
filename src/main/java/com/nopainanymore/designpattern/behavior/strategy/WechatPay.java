@@ -8,8 +8,8 @@ import java.math.BigDecimal;
 /**
  * design-pattern: WechatPay
  *
- * @author NoPainAnymore
- * @date 2019-07-18 22:15
+ * @author nopainanymore
+ * @version 2019-07-18 22:15
  */
 @Slf4j
 @Data

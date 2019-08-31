@@ -5,8 +5,8 @@ import java.math.BigDecimal;
 /**
  * design-pattern: Client
  *
- * @author NoPainAnymore
- * @date 2019-07-18 22:40
+ * @author nopainanymore
+ * @version 2019-07-18 22:40
  */
 public class Client {
 

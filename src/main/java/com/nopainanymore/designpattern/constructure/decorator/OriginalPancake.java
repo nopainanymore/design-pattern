@@ -7,8 +7,8 @@ import java.math.BigDecimal;
 /**
  * design-pattern: OriginalPancake
  *
- * @author NoPainAnymore
- * @date 2019-07-22 22:03
+ * @author nopainanymore
+ * @version 2019-07-22 22:03
  */
 @Slf4j
 public class OriginalPancake implements RawMaterial {

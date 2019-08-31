@@ -8,8 +8,8 @@ import lombok.NoArgsConstructor;
 /**
  * design-pattern: CarBody
  *
- * @author NoPainAnymore
- * @date 2019-07-23 20:54
+ * @author nopainanymore
+ * @version 2019-07-23 20:54
  */
 @Data
 @Builder

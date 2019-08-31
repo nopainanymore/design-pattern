@@ -5,8 +5,8 @@ import java.util.HashMap;
 /**
  * design-pattern: RobotFactory
  *
- * @author NoPainAnymore
- * @date 2019-07-31 20:16
+ * @author nopainanymore
+ * @version 2019-07-31 20:16
  */
 public class RobotFactory {
 

@@ -7,8 +7,8 @@ import java.math.BigDecimal;
 /**
  * design-pattern: Lettuce
  *
- * @author NoPainAnymore
- * @date 2019-07-22 21:52
+ * @author nopainanymore
+ * @version 2019-07-22 21:52
  */
 @Slf4j
 public class Lettuce extends PancakeRawMaterial {

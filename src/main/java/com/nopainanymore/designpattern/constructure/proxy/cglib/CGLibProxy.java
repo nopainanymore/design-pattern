@@ -11,8 +11,8 @@ import java.lang.reflect.Method;
 /**
  * design-pattern: CGLibProxy
  *
- * @author NoPainAnymore
- * @date 2019-05-04 17:36
+ * @author nopainanymore
+ * @version 2019-05-04 17:36
  */
 @Slf4j
 public class CGLibProxy implements MethodInterceptor {

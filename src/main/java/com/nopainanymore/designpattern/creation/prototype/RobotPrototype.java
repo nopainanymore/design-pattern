@@ -5,8 +5,8 @@ import lombok.Data;
 /**
  * design-pattern: RobotPrototype
  *
- * @author NoPainAnymore
- * @date 2019-07-31 00:08
+ * @author nopainanymore
+ * @version 2019-07-31 00:08
  */
 @Data
 public abstract class RobotPrototype implements Cloneable {

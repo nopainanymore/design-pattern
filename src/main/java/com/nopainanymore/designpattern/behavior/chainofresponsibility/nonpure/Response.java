@@ -8,8 +8,8 @@ import lombok.NoArgsConstructor;
 /**
  * design-pattern: Response
  *
- * @author NoPainAnymore
- * @date 2019-07-17 23:16
+ * @author nopainanymore
+ * @version 2019-07-17 23:16
  */
 @Data
 @Builder

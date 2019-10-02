@@ -17,16 +17,10 @@ public class WeatherData implements Subject {
 
     private List<Observer> observerList = new ArrayList<>();
 
-    private float temperature;
+    private WeatherMetaData weatherMetaData;
 
-    private float humidity;
-
-    private float pressure;
-
-    public void weatherChange(float temperature, float humidity, float pressure) {
-        this.temperature = temperature;
-        this.humidity = humidity;
-        this.pressure = pressure;
+    public void weatherChange(WeatherMetaData weatherMetaData) {
+        this.weatherMetaData = weatherMetaData;
         notifyObserver();
     }
 
@@ -43,7 +37,7 @@ public class WeatherData implements Subject {
     @Override
     public void notifyObserver() {
         if (!CollectionUtils.isEmpty(observerList)) {
-            observerList.forEach(observer -> observer.update(temperature, humidity, pressure));
+            observerList.forEach(observer -> observer.update(weatherMetaData));
         }
     }
 }

@@ -12,7 +12,7 @@ import lombok.extern.slf4j.Slf4j;
 public class TVObserver implements Observer {
 
     @Override
-    public void update(float temperature, float humidity, float pressure) {
-        log.info("TVObserver- now weather - temperature:{},  humidity:{} , pressure:{}", temperature, humidity, pressure);
+    public void update(WeatherMetaData weatherMetaData) {
+        log.info("TVObserver- now weather - temperature:{},  humidity:{} , pressure:{}", weatherMetaData.getTemperature(), weatherMetaData.getHumidity(), weatherMetaData.getPressure());
     }
 }

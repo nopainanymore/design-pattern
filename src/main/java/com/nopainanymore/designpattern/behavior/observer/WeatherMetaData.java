@@ -1,5 +1,6 @@
 package com.nopainanymore.designpattern.behavior.observer;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 /**
@@ -9,12 +10,13 @@ import lombok.Data;
  * @version 2019-10-02 10:03
  */
 @Data
-public class WeatherMetaData {
+@AllArgsConstructor
+class WeatherMetaData {
 
-    private float temperature;
+    private Float temperature;
 
-    private float humidity;
+    private Float humidity;
 
-    private float pressure;
+    private Float pressure;
 
 }

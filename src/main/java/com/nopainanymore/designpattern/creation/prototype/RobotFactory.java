@@ -24,5 +24,4 @@ public class RobotFactory {
         robotMap.put(helperRobot.getRobotType(), helperRobot);
     }
 
-
 }

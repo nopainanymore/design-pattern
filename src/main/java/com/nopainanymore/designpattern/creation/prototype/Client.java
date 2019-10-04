@@ -17,11 +17,10 @@ public class Client {
     public static void main(String[] args) {
         RobotPrototype fighter0 = RobotFactory.getRobot("fighter");
         RobotPrototype fighter1 = RobotFactory.getRobot("fighter");
+        log.info("Client- main- equals?: {}", fighter0 == fighter1);
         fighter0.setId(0);
         fighter1.setId(1);
-        log.info("Client- main:{}", gson.toJson(fighter0));
-        log.info("Client- main:{}", gson.toJson(fighter1));
-        log.info("Client- main- fighter0.hashCode:{}", fighter0.hashCode());
-        log.info("Client- main- fighter1.hashCode:{}", fighter1.hashCode());
+        log.info("Client- main: fighter0:{}, fighter1:{}", gson.toJson(fighter0), gson.toJson(fighter1));
+        log.info("Client- main- fighter0.hashCode:{}，fighter1.hashCode:{}", fighter0.hashCode(), fighter1.hashCode());
     }
 }

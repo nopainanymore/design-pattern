@@ -8,11 +8,11 @@ import java.util.HashMap;
  * @author nopainanymore
  * @version 2019-09-22 21:25
  */
-public class FlyWeightFactory {
+class FlyWeightFactory {
 
     private static HashMap<String, FlyWeight> flyWeightHashMap = new HashMap<>();
 
-    public static FlyWeight getFlyWeight(String unchangeable) {
+    static FlyWeight getFlyWeight(String unchangeable) {
         if (!flyWeightHashMap.containsKey(unchangeable)) {
             FlyWeight flyWeight = new ConcreteFlyWeight(unchangeable);
             flyWeightHashMap.put(unchangeable, flyWeight);

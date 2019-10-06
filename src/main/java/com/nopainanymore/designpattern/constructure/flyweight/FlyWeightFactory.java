@@ -10,9 +10,9 @@ import java.util.HashMap;
  */
 public class FlyWeightFactory {
 
-    private HashMap<String, FlyWeight> flyWeightHashMap = new HashMap<>();
+    private static HashMap<String, FlyWeight> flyWeightHashMap = new HashMap<>();
 
-    public FlyWeight getFlyWeight(String unchangeable) {
+    public static FlyWeight getFlyWeight(String unchangeable) {
         if (!flyWeightHashMap.containsKey(unchangeable)) {
             FlyWeight flyWeight = new ConcreteFlyWeight(unchangeable);
             flyWeightHashMap.put(unchangeable, flyWeight);

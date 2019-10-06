@@ -15,25 +15,19 @@ public class ConcreteFlyWeight implements FlyWeight {
 
     private String changeable;
 
-
     public ConcreteFlyWeight(String unchangeable) {
         this.unchangeable = unchangeable;
     }
 
-    public String getUnchangeable() {
-        return unchangeable;
-    }
-
-    public String getChangeable() {
-        return changeable;
-    }
-
+    @Override
     public void setChangeable(String changeable) {
         this.changeable = changeable;
+
     }
 
     @Override
-    public void changeable() {
-        log.info("ConcreteFlyWeight- changeable- {}", changeable);
+    public String getLogUnchangeable() {
+        log.info("ConcreteFlyWeight- getLogUnchangeable- unchangeable:{} , changeable:{}", unchangeable, changeable);
+        return unchangeable;
     }
 }

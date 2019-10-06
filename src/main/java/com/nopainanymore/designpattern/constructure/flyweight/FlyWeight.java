@@ -8,6 +8,8 @@ package com.nopainanymore.designpattern.constructure.flyweight;
  */
 public interface FlyWeight {
 
-    void changeable();
+    void setChangeable(String changeable);
+
+    String getLogUnchangeable();
 
 }

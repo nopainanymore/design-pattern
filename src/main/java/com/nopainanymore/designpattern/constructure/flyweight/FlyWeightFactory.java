@@ -8,7 +8,7 @@ import java.util.HashMap;
  * @author nopainanymore
  * @version 2019-09-22 21:25
  */
-class FlyWeightFactory {
+public class FlyWeightFactory {
 
     private static HashMap<String, FlyWeight> flyWeightHashMap = new HashMap<>();
 

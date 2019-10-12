@@ -8,8 +8,10 @@ package com.nopainanymore.designpattern.behavior.chainofresponsibility.nonpure;
  */
 public interface Filter {
 
+    // 具体的处理逻辑
     void doFilter(Request request, Response response);
 
+    // 传递给下一个Filter
     void fireFilter(Request request, Response response);
 
 }

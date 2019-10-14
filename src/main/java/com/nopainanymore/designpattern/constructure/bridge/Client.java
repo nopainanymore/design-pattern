@@ -9,6 +9,16 @@ package com.nopainanymore.designpattern.constructure.bridge;
 public class Client {
 
     public static void main(String[] args) {
+        Transit bus = new Bus();
+        TransitCard aliTransitCard = new AliTransitCard(bus);
+        aliTransitCard.pay();
+        aliTransitCard.setTransit(new Metro());
+        aliTransitCard.pay();
 
+        Transit metro = new Metro();
+        TransitCard materialTransitCard = new MaterialTransitCard(metro);
+        materialTransitCard.pay();
+        materialTransitCard.setTransit(new Bus());
+        materialTransitCard.pay();
     }
 }

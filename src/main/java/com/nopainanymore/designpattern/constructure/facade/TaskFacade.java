@@ -19,5 +19,4 @@ public class TaskFacade {
     public Boolean check(Task task) {
         return taskChecker.check(task);
     }
-
 }

@@ -11,10 +11,14 @@ import java.math.BigDecimal;
 public class Client {
 
     public static void main(String[] args) {
-        Tenant tenant = new Tenant(20, BigDecimal.valueOf(1000));
-        Landlord landlord = new Landlord();
-        RentMediator rentMediator = new ConcreteRentMediator(landlord, tenant);
-        rentMediator.deal();
-    }
+        RentMediator rentMediator = new ConcreteRentMediator();
+        Tenant tenant = new Tenant(rentMediator, 20, BigDecimal.valueOf(1000));
+        Landlord landlord = new Landlord(rentMediator);
+        tenant.requireRoom();
 
+        RentMediator rentMediator1 = new ConcreteRentMediator();
+        Tenant tenant1 = new Tenant(rentMediator1, 20, BigDecimal.valueOf(500));
+        Landlord landlord1 = new Landlord(rentMediator1);
+        tenant1.requireRoom();
+    }
 }

@@ -2,6 +2,7 @@ package com.nopainanymore.designpattern.behavior.mediator;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 
 import java.math.BigDecimal;
 
@@ -13,6 +14,7 @@ import java.math.BigDecimal;
  */
 @Getter
 @Setter
+@Slf4j
 public class Tenant extends RentUser {
 
     private RentMediator rentMediator;
@@ -21,13 +23,24 @@ public class Tenant extends RentUser {
 
     private BigDecimal rent;
 
-    public Tenant(Integer roomSize, BigDecimal rent) {
+    public Tenant(RentMediator rentMediator, Integer roomSize, BigDecimal rent) {
+        this.rentMediator = rentMediator;
         this.roomSize = roomSize;
         this.rent = rent;
+        rentMediator.setTenant(this);
+    }
+
+    @Override
+    BigDecimal pay() {
+        return BigDecimal.valueOf(500);
+    }
+
+    public void withdrawMoney(BigDecimal withdraw) {
+        log.info("Tenant- withdrawMoney- {}", withdraw);
     }
 
     public void requireRoom() {
+        log.info("Tenant- requireRoom- roomSize:{},rent:{}", roomSize, rent);
         rentMediator.requireRoom(roomSize, rent);
     }
-
 }

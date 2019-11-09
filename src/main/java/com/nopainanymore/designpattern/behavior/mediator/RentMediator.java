@@ -10,9 +10,31 @@ import java.math.BigDecimal;
  */
 public abstract class RentMediator {
 
-    abstract void deal();
+    protected Landlord landlord;
+
+    protected Tenant tenant;
+
+    protected BigDecimal mediatorMoney;
+
+    abstract void receiveMoney(BigDecimal money);
 
     abstract void offerRoom(Boolean hasRoom);
 
     abstract void requireRoom(Integer roomSize, BigDecimal rent);
+
+    public Landlord getLandlord() {
+        return landlord;
+    }
+
+    public void setLandlord(Landlord landlord) {
+        this.landlord = landlord;
+    }
+
+    public Tenant getTenant() {
+        return tenant;
+    }
+
+    public void setTenant(Tenant tenant) {
+        this.tenant = tenant;
+    }
 }

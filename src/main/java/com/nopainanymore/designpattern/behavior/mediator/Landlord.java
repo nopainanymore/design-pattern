@@ -17,6 +17,16 @@ public class Landlord extends RentUser {
 
     private RentMediator rentMediator;
 
+    public Landlord(RentMediator rentMediator) {
+        this.rentMediator = rentMediator;
+        rentMediator.setLandlord(this);
+    }
+
+    @Override
+    BigDecimal pay() {
+        return BigDecimal.valueOf(500);
+    }
+
     public void offerRoom(Integer roomSize, BigDecimal rent) {
         BigDecimal divide = rent.divide(BigDecimal.valueOf(roomSize));
         log.info("Landlord- offerRoom- divide:{}", divide);

@@ -12,11 +12,8 @@ public class TaskFacade {
 
     private TaskBlocker taskBlocker = new TaskBlocker();
 
-    public Boolean test(Task task) {
-        return taskBlocker.testBlock(task);
+    public Boolean verify(Task task) {
+        return taskBlocker.testBlock(task) && taskChecker.check(task);
     }
 
-    public Boolean check(Task task) {
-        return taskChecker.check(task);
-    }
 }

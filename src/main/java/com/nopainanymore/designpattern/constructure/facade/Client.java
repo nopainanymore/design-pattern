@@ -14,7 +14,6 @@ public class Client {
     public static void main(String[] args) {
         Task task = new Task("s", 1);
         TaskFacade taskFacade = new TaskFacade();
-        taskFacade.test(task);
-        taskFacade.check(task);
+        taskFacade.verify(task);
     }
 }

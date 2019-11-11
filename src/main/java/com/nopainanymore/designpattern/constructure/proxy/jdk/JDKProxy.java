@@ -35,7 +35,4 @@ public class JDKProxy implements InvocationHandler {
         }
         return method.invoke(target, args);
     }
-
-
-
 }

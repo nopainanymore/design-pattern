@@ -12,6 +12,5 @@ public class JDKProxyClient {
         EClass eClass = new EClass();
         JDKProxy proxy = new JDKProxy(eClass);
         proxy.createProxy().execute();
-
     }
 }

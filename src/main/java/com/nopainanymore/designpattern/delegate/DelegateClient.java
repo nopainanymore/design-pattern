@@ -12,5 +12,4 @@ public class DelegateClient {
         new TaskStrategy("install").runTask();
         new TaskStrategy("uninstall").runTask();
     }
-
 }

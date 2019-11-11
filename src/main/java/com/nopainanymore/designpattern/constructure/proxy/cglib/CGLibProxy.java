@@ -45,5 +45,4 @@ public class CGLibProxy implements MethodInterceptor {
         }
         return methodProxy.invokeSuper(proxy, args);
     }
-
 }

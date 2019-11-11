@@ -1,12 +1,12 @@
 package com.nopainanymore.designpattern.behavior.observer;
 
 /**
- * design-pattern: Client
+ * design-pattern: ObserverClient
  *
  * @author nopainanymore
  * @version 2019-07-11 22:54
  */
-public class Client {
+public class ObserverClient {
 
     public static void main(String[] args) {
         RadioObserver radioObserver = new RadioObserver();

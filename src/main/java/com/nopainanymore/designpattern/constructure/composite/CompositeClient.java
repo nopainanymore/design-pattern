@@ -1,12 +1,12 @@
 package com.nopainanymore.designpattern.constructure.composite;
 
 /**
- * design-pattern: Client
+ * design-pattern: CompositeClient
  *
  * @author nopainanymore
  * @version 2019-11-02 16:34
  */
-public class Client {
+public class CompositeClient {
 
     public static void main(String[] args) {
         FileHandle root = new Folder("root");

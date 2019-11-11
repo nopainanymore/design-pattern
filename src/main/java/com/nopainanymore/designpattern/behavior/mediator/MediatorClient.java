@@ -3,12 +3,12 @@ package com.nopainanymore.designpattern.behavior.mediator;
 import java.math.BigDecimal;
 
 /**
- * design-pattern: Client
+ * design-pattern: MediatorClient
  *
  * @author nopainanymore
  * @version 2019-11-08 22:57
  */
-public class Client {
+public class MediatorClient {
 
     public static void main(String[] args) {
         RentMediator rentMediator = new ConcreteRentMediator();

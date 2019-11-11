@@ -1,12 +1,12 @@
 package com.nopainanymore.designpattern.behavior.nullObject;
 
 /**
- * design-pattern: Client
+ * design-pattern: NullClient
  *
  * @author nopainanymore
  * @version 2019-10-30 17:49
  */
-public class Client {
+public class NullClient {
 
     public static void main(String[] args) {
         AbstractOperation operation = getOperation(true);

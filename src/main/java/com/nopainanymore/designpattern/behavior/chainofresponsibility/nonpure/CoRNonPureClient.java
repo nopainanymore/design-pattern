@@ -4,13 +4,13 @@ import com.google.gson.Gson;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * design-pattern: Client
+ * design-pattern: CoRNonPureClient
  *
  * @author nopainanymore
  * @version 2019-07-17 23:58
  */
 @Slf4j
-public class Client {
+public class CoRNonPureClient {
 
     private static FilterChain filterChain;
 

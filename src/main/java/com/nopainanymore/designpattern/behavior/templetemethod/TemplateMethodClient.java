@@ -1,12 +1,12 @@
 package com.nopainanymore.designpattern.behavior.templetemethod;
 
 /**
- * design-pattern: Client
+ * design-pattern: TemplateMethodClient
  *
  * @author nopainanymore
  * @version 2019-10-30 15:55
  */
-public class Client {
+public class TemplateMethodClient {
 
     public static void main(String[] args) {
         CaffeineBeverage coffee = new Coffee();

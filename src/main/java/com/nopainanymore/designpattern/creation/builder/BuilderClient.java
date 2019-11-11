@@ -4,13 +4,13 @@ import com.google.gson.Gson;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * design-pattern: Client
+ * design-pattern: BuilderClient
  *
  * @author nopainanymore
  * @version 2019-07-23 21:16
  */
 @Slf4j
-public class Client {
+public class BuilderClient {
 
     private static Gson gson = new Gson();
 

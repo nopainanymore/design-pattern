@@ -1,12 +1,12 @@
 package com.nopainanymore.designpattern.behavior.chainofresponsibility.pure;
 
 /**
- * design-pattern: Client
+ * design-pattern: CoRPureClient
  *
  * @author nopainanymore
  * @version 2019-07-17 23:00
  */
-public class Client {
+public class CoRPureClient {
 
     private static AbstractHandler handlerChain;
 

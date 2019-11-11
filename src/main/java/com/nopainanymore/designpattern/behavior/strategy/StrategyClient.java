@@ -3,12 +3,12 @@ package com.nopainanymore.designpattern.behavior.strategy;
 import java.math.BigDecimal;
 
 /**
- * design-pattern: Client
+ * design-pattern: StrategyClient
  *
  * @author nopainanymore
  * @version 2019-07-18 22:40
  */
-public class Client {
+public class StrategyClient {
 
 
     public static void main(String[] args) {

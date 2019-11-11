@@ -1,12 +1,12 @@
 package com.nopainanymore.designpattern.constructure.bridge;
 
 /**
- * design-pattern: Client
+ * design-pattern: BridgeClient
  *
  * @author nopainanymore
  * @version 2019-09-08 15:19
  */
-public class Client {
+public class BridgeClient {
 
     public static void main(String[] args) {
         Transit bus = new Bus();

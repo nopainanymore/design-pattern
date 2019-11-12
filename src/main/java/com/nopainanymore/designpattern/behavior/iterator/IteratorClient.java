@@ -31,7 +31,7 @@ public class IteratorClient {
 
         CustomContainer<Human>.CustomIterator customIterator = customContainer.customIterator(i);
         while (customIterator.hasNext()) {
-            log.info("IteratorClient- main- cursor:{},next:{}", customIterator.cursor, gson.toJson(customIterator.next()));
+            log.info("IteratorClient- main- cursor:{}, next:{}", customIterator.cursor, gson.toJson(customIterator.next()));
             i++;
         }
     }

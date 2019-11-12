@@ -173,7 +173,7 @@ public class CustomContainer<E> implements Container<E> {
         @Override
         public E next() {
             checkForComodification();
-            int i = cursor;
+            int i = cursor; // 记录当前应该返回的索引位置
             if (i >= size) {
                 throw new NoSuchElementException();
             }
@@ -181,8 +181,8 @@ public class CustomContainer<E> implements Container<E> {
             if (i >= elementData.length) {
                 throw new ConcurrentModificationException();
             }
-            cursor = i + 1;
-            return (E) elementData[lastRet = i];
+            cursor = i + 1; // 将游标索引后移
+            return (E) elementData[lastRet = i]; // 返回记录位置的元素
         }
 
         @Override

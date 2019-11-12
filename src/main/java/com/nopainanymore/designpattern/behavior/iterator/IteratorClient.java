@@ -1,5 +1,6 @@
 package com.nopainanymore.designpattern.behavior.iterator;
 
+import com.google.gson.Gson;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;
@@ -15,6 +16,8 @@ import java.util.stream.IntStream;
 @Slf4j
 public class IteratorClient {
 
+    private static Gson gson = new Gson();
+
     public static void main(String[] args) {
         int i = 0;
         CustomContainer<Human> customContainer = new CustomContainer();
@@ -26,8 +29,9 @@ public class IteratorClient {
 
         humanList.forEach(customContainer::add);
 
-        while (customContainer.customIterator(i).hasNext()) {
-            log.info("IteratorClient- main- {}", customContainer.customIterator(i).cursor);
+        CustomContainer<Human>.CustomIterator customIterator = customContainer.customIterator(i);
+        while (customIterator.hasNext()) {
+            log.info("IteratorClient- main- cursor:{},next:{}", customIterator.cursor, gson.toJson(customIterator.next()));
             i++;
         }
     }

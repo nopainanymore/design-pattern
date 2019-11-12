@@ -154,9 +154,9 @@ public class CustomContainer<E> implements Container<E> {
 
     public class CustomIterator implements Iterator<E> {
 
-        //index of next element to return
+        // index of next element to return 游标记录下次返回值
         int cursor;
-        // index of last element returned
+        // index of last element returned 上次返回元素的索引
         int lastRet = -1;
 
         int expectedModCount = modCount;

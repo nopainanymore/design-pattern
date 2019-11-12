@@ -19,7 +19,7 @@ public class Folder extends FileHandle {
     private Set<FileHandle> fileHandleSet = new HashSet<>();
 
     public Folder(String name) {
-        super(name);
+        super(name, 0);
     }
 
     @Override
@@ -31,11 +31,13 @@ public class Folder extends FileHandle {
     @Override
     void add(FileHandle fileHandle) {
         this.fileHandleSet.add(fileHandle);
+        this.size = this.size() + fileHandle.size();
     }
 
     @Override
     void remove(FileHandle fileHandle) {
         this.fileHandleSet.remove(fileHandle);
+        this.size = this.size - fileHandle.size();
     }
 
     @Override
@@ -54,4 +56,10 @@ public class Folder extends FileHandle {
         fileHandleSet.forEach(FileHandle::lsAll);
     }
 
+    @Override
+    Integer size() {
+        return fileHandleSet.stream()
+                .mapToInt(FileHandle::size)
+                .sum();
+    }
 }

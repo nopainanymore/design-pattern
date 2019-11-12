@@ -11,8 +11,8 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class File extends FileHandle {
 
-    public File(String name) {
-        super(name);
+    public File(String name, Integer size) {
+        super(name, size);
     }
 
     @Override
@@ -42,5 +42,10 @@ public class File extends FileHandle {
     void lsAll() {
 //        log.info("{}", name);
 //        throw new UnsupportedOperationException("file not support ls operation");
+    }
+
+    @Override
+    Integer size() {
+        return this.size;
     }
 }

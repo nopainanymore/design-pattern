@@ -15,8 +15,11 @@ public abstract class FileHandle {
 
     protected String name;
 
-    public FileHandle(String name) {
+    protected Integer size;
+
+    public FileHandle(String name, Integer size) {
         this.name = name;
+        this.size = size;
     }
 
     abstract void open();
@@ -29,4 +32,5 @@ public abstract class FileHandle {
 
     abstract void lsAll();
 
+    abstract Integer size();
 }

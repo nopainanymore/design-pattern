@@ -1,7 +1,5 @@
 package com.nopainanymore.designpattern.delegate;
 
-import lombok.Data;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -11,9 +9,9 @@ import java.util.Map;
  * @author nopainanymore
  * @version 2019-07-13 22:47
  */
-public class TaskStrategy implements ITask {
+public class TaskStrategy implements Task {
 
-    private static Map<String, ITask> taskMap = new HashMap<>();
+    private static Map<String, Task> taskMap = new HashMap<>();
 
     static {
         taskMap.put("install", new InstallTask());

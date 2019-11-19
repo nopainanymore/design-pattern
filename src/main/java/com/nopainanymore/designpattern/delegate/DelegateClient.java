@@ -9,7 +9,7 @@ package com.nopainanymore.designpattern.delegate;
 public class DelegateClient {
 
     public static void main(String[] args) {
-        new TaskStrategy("install").runTask();
-        new TaskStrategy("uninstall").runTask();
+        new TaskDelegator("install").runTask();
+        new TaskDelegator("uninstall").runTask();
     }
 }

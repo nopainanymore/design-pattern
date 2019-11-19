@@ -9,7 +9,7 @@ import java.util.Map;
  * @author nopainanymore
  * @version 2019-07-13 22:47
  */
-public class TaskStrategy implements Task {
+public class TaskDelegator implements Task {
 
     private static Map<String, Task> taskMap = new HashMap<>();
 
@@ -20,7 +20,7 @@ public class TaskStrategy implements Task {
 
     private String strategy;
 
-    public TaskStrategy(String strategy) {
+    public TaskDelegator(String strategy) {
         this.strategy = strategy;
     }
 

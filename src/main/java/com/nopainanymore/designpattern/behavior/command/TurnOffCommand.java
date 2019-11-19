@@ -22,5 +22,4 @@ public class TurnOffCommand implements Command {
     public void execute() {
         radio.off();
     }
-
 }

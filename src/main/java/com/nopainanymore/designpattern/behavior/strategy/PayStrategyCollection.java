@@ -28,6 +28,4 @@ public class PayStrategyCollection {
     public static PayStrategy getStrategy(String strategyName) {
         return payStrategyConcurrentHashMap.get(strategyName);
     }
-
-
 }

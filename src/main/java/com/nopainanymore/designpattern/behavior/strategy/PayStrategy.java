@@ -11,5 +11,4 @@ import java.math.BigDecimal;
 public interface PayStrategy {
 
     PayState pay(String account, BigDecimal amount);
-
 }

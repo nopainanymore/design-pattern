@@ -9,6 +9,7 @@ package com.nopainanymore.designpattern.behavior.state;
 public class StateClient {
 
     public static void main(String[] args) {
-
+        Process process = new Process(1L, "vocation");
+        process.setState(StartState.of());
     }
 }

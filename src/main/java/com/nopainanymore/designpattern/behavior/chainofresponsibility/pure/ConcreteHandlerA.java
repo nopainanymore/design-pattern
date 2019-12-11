@@ -25,6 +25,4 @@ public class ConcreteHandlerA extends AbstractHandler {
             nextHandler.handle(condition, request);
         }
     }
-
-
 }

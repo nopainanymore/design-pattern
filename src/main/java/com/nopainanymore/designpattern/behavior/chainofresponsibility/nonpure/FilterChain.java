@@ -26,5 +26,4 @@ public class FilterChain extends AbstractFilter {
         end.setNextFilter(filter);
         end = filter;
     }
-
 }

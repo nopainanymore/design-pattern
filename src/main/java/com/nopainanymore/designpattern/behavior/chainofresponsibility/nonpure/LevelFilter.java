@@ -21,7 +21,7 @@ public class LevelFilter extends AbstractFilter {
             response.setResult(preResult + "level check pass");
         } else {
             response.setResult(preResult + "level check failure");
-            request.setIsPass(false);
+            request.setShouldPass(false);
         }
         log.info("LevelFilter- doFilter- request:{} , response:{}", gson.toJson(request), gson.toJson(response));
         fireFilter(request, response);

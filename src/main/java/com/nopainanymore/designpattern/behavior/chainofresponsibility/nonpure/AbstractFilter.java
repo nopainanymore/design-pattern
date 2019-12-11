@@ -20,7 +20,7 @@ public abstract class AbstractFilter implements Filter {
 
     // 对 doFilter 加了一个判断，用于提前结束流转
     void transformEntry(Request request, Response response) {
-        if (request.getIsPass()) {
+        if (request.getShouldPass()) {
             doFilter(request, response);
         }
     }

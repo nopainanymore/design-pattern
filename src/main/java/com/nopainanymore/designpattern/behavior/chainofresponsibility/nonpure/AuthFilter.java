@@ -23,10 +23,9 @@ public class AuthFilter extends AbstractFilter {
             response.setResult(preResult + "auth check pass");
         } else {
             response.setResult(preResult + "auth check failure");
-            request.setIsPass(false);
+            request.setShouldPass(false);
         }
         log.info("AuthFilter- doFilter- request:{} ,response:{}", gson.toJson(request), gson.toJson(response));
         fireFilter(request, response);
     }
-
 }

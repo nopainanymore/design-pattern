@@ -22,6 +22,6 @@ public class Request {
     private Integer level;
 
     // 用来标识当前请求是否需要继续传递
-    private Boolean isPass = true;
+    private Boolean shouldPass = true;
 
 }

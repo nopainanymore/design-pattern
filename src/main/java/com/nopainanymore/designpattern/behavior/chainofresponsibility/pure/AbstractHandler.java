@@ -19,5 +19,4 @@ public abstract class AbstractHandler {
     public AbstractHandler(AbstractHandler nextHandler) {
         this.nextHandler = nextHandler;
     }
-
 }

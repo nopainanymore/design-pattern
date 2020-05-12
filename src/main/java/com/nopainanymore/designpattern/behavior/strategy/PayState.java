@@ -20,5 +20,4 @@ public class PayState {
     private Boolean state;
 
     private String msg;
-
 }

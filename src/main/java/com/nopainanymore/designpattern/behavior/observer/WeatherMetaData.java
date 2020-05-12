@@ -18,5 +18,4 @@ class WeatherMetaData {
     private Float humidity;
 
     private Float pressure;
-
 }
